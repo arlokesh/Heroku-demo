@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar  7 20:17:15 2021
+
+@author: AG07256
+"""
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+ 
+</head>
+<body>
+<h2>Spam Detector For SMS Messages</h2>
+<p style="color:blue;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+{% if prediction == 1%}
+<h2 style="color:red;">Spam</h2>
+{% elif prediction == 0%}
+<h2 style="color:blue;">Not a Spam (It is a Ham)</h2>
+{% endif %}
+</body>
+</html>

@@ -2,14 +2,7 @@
 """
 Created on Mon Apr 19 18:53:10 2021
 
-@author: AG07256
-"""
-
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May 15 12:50:04 2020
-@author: krish.naik
+@author: Lokesh
 """
 
 from flask import Flask, request
